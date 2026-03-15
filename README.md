@@ -12,6 +12,21 @@ This is the official PyTorch implementation of the Deep Integrated Explanations 
 We introduce a novel method that enables visualization of predictions made by vision models, as well as visualization of explanations for a specific class.
 In this method, we present the concept of deep integrated explanations.
 
+
+
+## Citing our work
+Please cite our work if you use it in your research:
+```
+@inproceedings{barkan2023deep,
+  title={Deep integrated explanations},
+  author={Barkan, Oren and Elisha, Yehonatan and Weill, Jonathan and Asher, Yuval and Eshel, Amit and Koenigstein, Noam},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={57--67},
+  year={2023}
+}
+```
+
+
 ## Producing DIX Classification Saliency Maps
 Images should be stored in the `data\ILSVRC2012_img_val` directory. 
 The information on the images being evaluated and their target class can be found in the `data\pics.txt` file, with each line formatted as follows: `<file_name> target_class_number` (e.g. `ILSVRC2012_val_00002214.JPEG 153`).
